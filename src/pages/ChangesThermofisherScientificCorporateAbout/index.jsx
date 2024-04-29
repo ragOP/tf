@@ -4,6 +4,7 @@ import { Text, Img, Heading, Button } from "../../components";
 import ChangesThermofisherScientificCorporateAboutLeader from "../../components/ChangesThermofisherScientificCorporateAboutLeader";
 import ChangesThermofisherScientificCorporateAboutOurstories from "../../components/ChangesThermofisherScientificCorporateAboutOurstories";
 import Footer from "../../components/Footer";
+import Navigation from "components/Navigation";
 
 const data = [
   { image: "images/img_thermo_scientific.svg", acommitmentto: "A commitment to analytical precision" },
@@ -62,6 +63,7 @@ const data1 = [
 export default function ChangesThermofisherScientificCorporateAboutPage() {
   return (
     <>
+    <Navigation/>
       <Helmet>
         <title>thermo-react-app</title>
         <meta name="description" content="Web site created using create-react-app" />
@@ -70,12 +72,12 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
         <header className="flex flex-col items-center gap-[26px]">
           <div className="flex justify-between gap-5 self-stretch bg-white-A700 pr-4 md:flex-col">
             <div className="relative h-[80px] w-[12%] md:h-auto md:w-full">
-              <Img src="images/img_header_logo.svg" alt="headerlogo" className="h-[28px] w-[128px]" />
-              <Img
+              {/* <Img src="images/img_header_logo.svg" alt="headerlogo" className="h-[28px] w-[128px]" /> */}
+              {/* <Img
                 src="images/img_thermo_fisher_scientific.png"
                 alt="thermofisher"
                 className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[80px] w-full object-cover"
-              />
+              /> */}
             </div>
             <div className="flex items-center gap-[35px] md:flex-col">
               <div className="flex flex-wrap items-center md:flex-col md:p-5">

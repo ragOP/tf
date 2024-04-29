@@ -19,7 +19,11 @@ const Home = () => {
           >
             ThermofisherScientificCorporateGenericTemplateSecon
           </Link>
+
         </li>
+        <Link to="/homepage" style={{ color: "#87CEFA", textDecoration: "none" }}>
+            Homepage
+          </Link>
         <li style={{ marginBottom: "10px" }}>
           <Link to="/thermofisherscientificcorporatecsr" style={{ color: "#87CEFA", textDecoration: "none" }}>
             ThermofisherScientificCorporateCSR
@@ -29,7 +33,7 @@ const Home = () => {
           <Link to="/changesthermofisherscientificcorporateabout" style={{ color: "#87CEFA", textDecoration: "none" }}>
             ChangesThermofisherScientificCorporateAbout
           </Link>
-        </li>
+        </li> 
         <li style={{ marginBottom: "10px" }}>
           <Link to="/finalop1investorsstockpricetopright" style={{ color: "#87CEFA", textDecoration: "none" }}>
             FinalOp1InvestorsStockPricetopright

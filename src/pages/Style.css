@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust as needed */
+    padding: 10px; /* Add padding to the navbar */
+    background-color: #ffffff; /* Adjust background color */
+  }
+  
+  .navdiv {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    gap: 20px; /* Adjust spacing between items */
+  }
+  
+  .navdiv a {
+    text-decoration: none;
+    color: #666565; /* Adjust link color */
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .navdiv a:hover {
+    color: #0f0f0f; /* Adjust hover color */
+  }
+  
+  .img_search {
+    width: 16px;
+    height: 16px;
+    /* Add any other styles for the search icon */
+  }
+  
+  .button_thermofisher {
+    min-width: 137px; /* Adjust button width */
+    padding: 10px 20px; /* Adjust button padding */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #007bff; /* Adjust button background color */
+    color: #ffffff; /* Adjust button text color */
+    font-size: 16px; /* Adjust button text size */
+    text-decoration: none;
+  }
+  
+  .button_thermofisher:hover {
+    background-color: #0056b3; /* Adjust hover background color */
+  }

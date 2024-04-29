@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-
+import Navigation from "components/Navigation";
 const data = [
   {
     calendarimage: "images/img_calendar.svg",
@@ -36,12 +36,13 @@ const data2 = [
 export default function FinalOp1InvestorsStockPricetoprightPage() {
   return (
     <>
+       <Navigation/>
       <Helmet>
         <title>thermo-react-app</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
       <div className="w-full bg-white-A700">
-        <Header />
+        {/* <Header /> */}
         <div className="mt-[37px] flex flex-col items-center">
           <div className="flex flex-col items-center self-stretch">
             <div className="container-xs relative z-[2] flex flex-col items-center md:p-5">

@@ -7,14 +7,19 @@ import ThermofisherScientificCorporateCSR from "pages/ThermofisherScientificCorp
 import ChangesThermofisherScientificCorporateAbout from "pages/ChangesThermofisherScientificCorporateAbout";
 import FinalOp1InvestorsStockPricetopright from "pages/FinalOp1InvestorsStockPricetopright";
 import ThermofisherScientificCorporateNewsroom from "pages/ThermofisherScientificCorporateNewsroom";
+import Homepage from "pages/Homepage";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "/", element: <Home /> },
+    { path: "/", element: <Homepage /> },
     { path: "*", element: <NotFound /> },
     {
       path: "thermofisherscientificcorporategenerictemplatesecon",
       element: <ThermofisherScientificCorporateGenericTemplateSecon />,
+    },
+    {
+      path: "Homepage",
+      element: <Homepage />,
     },
     {
       path: "thermofisherscientificcorporatecsr",

@@ -13,7 +13,7 @@ import ThermofisherScientificCorporateCSREnvironment from "../../components/Ther
 import ThermofisherScientificCorporateCSREthics from "../../components/ThermofisherScientificCorporateCSREthics";
 import ThermofisherScientificCorporateCSROurcsr from "../../components/ThermofisherScientificCorporateCSROurcsr";
 import ThermofisherScientificCorporateGenericTemplateSeconDiversityand from "../../components/ThermofisherScientificCorporateGenericTemplateSeconDiversityand";
-
+import Navigation from "components/Navigation";
 const data = [
   { userimage: "images/img_shutterstock_1898590327.png", investmenttext: "In R&D Investment" },
   {
@@ -36,12 +36,13 @@ const data = [
 export default function ThermofisherScientificCorporateCSRPage() {
   return (
     <>
+     <Navigation/>
       <Helmet>
         <title>thermo-react-app</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
       <div className="w-full bg-white-A700">
-        <Header />
+        {/* <Header /> */}
         <div className="mt-[57px] flex flex-col items-center">
           <ThermofisherScientificCorporateCSRCsrhero className="flex flex-col items-center gap-[49px] self-stretch" />
           <ThermofisherScientificCorporateCSROurcsr className="flex items-end justify-center self-stretch bg-gray-900 py-[49px] md:py-5" />
