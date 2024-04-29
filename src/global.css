@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Neue+LT+W1G:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-helvetica-neue-lt-w1g: "Helvetica Neue LT W1G";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --nuetral-text: #222;
+  --primary-primary: #e71316;
+  --mobile-frame: #f5f5f5;
+  --nuetral-32: #b8babc;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-10xl: 29px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+}

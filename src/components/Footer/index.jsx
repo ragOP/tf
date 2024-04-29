@@ -28,7 +28,7 @@ export default function Footer({ ...props }) {
             </Text>
           </div>
         </div>
-        <div className="flex w-full flex-col items-center">
+        <div className="flex w-full flex-col items-center" >
           <div className="container-xs relative z-[2] pl-[1140px] md:p-5 md:pl-5">
             <div className="flex flex-col items-start gap-5">
               <Heading size="xs" as="h6" className="!text-gray-200">
@@ -172,7 +172,7 @@ export default function Footer({ ...props }) {
                 </ul>
               </div>
             </div>
-            <div className="relative mt-[-55px] flex self-stretch border-t border-solid border-gray-500 bg-gray-800 p-8 sm:p-5">
+            <div className="relative mt-[-85px] flex self-stretch border-t border-solid border-gray-500 bg-gray-800 p-8 sm:p-5">
               <div className="mx-auto flex w-full max-w-[883px] items-start md:flex-col">
                 <Img src="images/img_footer_logo.svg" alt="footerlogo" className="h-[32px] w-[146px]" />
                 <Text size="s" as="p" className="ml-[100px] mt-1.5 !text-gray-200 md:ml-0">

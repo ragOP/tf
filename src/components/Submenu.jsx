@@ -1,375 +1,102 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Adjust as needed */
-    padding: 10px; /* Add padding to the navbar */
-    background-color: #ffffff; /* Adjust background color */
-  }
-  
-  .navdiv {
-    display: flex;
-    align-items: center; /* Vertically center items */
-    gap: 20px; /* Adjust spacing between items */
-  }
-  
-  .navdiv a {
-    text-decoration: none;
-    color: #666565; /* Adjust link color */
-    font-size: 16px; /* Adjust font size */
-  }
-  
-  .navdiv a:hover {
-    color: #0f0f0f; /* Adjust hover color */
-  }
-  
-  .img_search {
-    width: 16px;
-    height: 16px;
-    /* Add any other styles for the search icon */
-  }
-  
-  .button_thermofisher {
-    min-width: 137px; /* Adjust button width */
-    padding: 10px 20px; /* Adjust button padding */
-    border-radius: 5px; /* Add border-radius for rounded corners */
-    background-color: #007bff; /* Adjust button background color */
-    color: #ffffff; /* Adjust button text color */
-    font-size: 16px; /* Adjust button text size */
-    text-decoration: none;
-  }
-  
-  .button_thermofisher:hover {
-    background-color: #0056b3; /* Adjust hover background color */
-  }
-  .subtractIcon,
-.subtractIcon1 {
-  position: relative;
-  width: 1440px;
-  height: 450px;
-}
-.subtractIcon1 {
-  width: 0;
-  height: 0;
-}
-.aboutUpdatedChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--nuetral-32);
-  width: 1440px;
-  height: 1px;
-}
-.vectorIcon {
-  position: absolute;
-  width: 30%;
-  top: -72px;
-  right: 70%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 418px;
-}
-.everythingWeDo {
-  line-height: 22px;
-}
-.healthierCleaner {
-  font-size: var(--font-size-xl);
-  line-height: 28px;
-  font-family: var(--font-helvetica-neue-lt-w1g);
-}
-.everythingWeDoStartsWithO {
-  margin: 0;
-}
-.andSafer {
-  margin: 0;
-  font-size: var(--font-size-xl);
-  line-height: 28px;
-}
-.everythingWeDoContainer {
-  position: absolute;
-  top: 126px;
-  left: 40px;
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
-  width: 287px;
-  font-size: var(--font-size-sm);
-}
-.instanceChild,
-.instanceItem {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-}
-.instanceChild {
-  width: 100%;
-  right: 0;
-  border-radius: var(--br-11xs);
-  background-color: var(--primary-primary);
-}
-.instanceItem {
-  background-color: var(--color-white);
-  width: 2px;
-}
-.readMore {
-  position: absolute;
-  top: 23.81%;
-  left: 18px;
-  line-height: 22px;
-}
-.rectangleParent {
-  position: absolute;
-  top: 249px;
-  left: 40px;
-  border-radius: var(--br-9xs);
-  width: 106px;
-  height: 42px;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--mobile-frame);
-}
-.vectorIcon1 {
-  position: absolute;
-  width: 13.4%;
-  top: 45px;
-  right: 86.6%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 57px;
-}
-.ourMission {
-  position: absolute;
-  top: 59px;
-  left: 40px;
-  line-height: 28px;
-  color: var(--color-white);
-  text-align: left;
-}
-.vectorIcon2 {
-  position: absolute;
-  width: 13.26%;
-  top: 234px;
-  right: -4.93%;
-  left: 91.67%;
-  max-width: 100%;
-  overflow: hidden;
-  height: 216px;
-  object-fit: contain;
-}
-.iconChild,
-.iconItem {
-  position: absolute;
-  top: calc(50% - 1px);
-  left: calc(50% - 8px);
-  background-color: var(--primary-primary);
-  width: 16px;
-  height: 2px;
-}
-.iconItem {
-  top: calc(50% - 8px);
-  left: calc(50% + 1px);
-  transform: rotate(90deg);
-  transform-origin: 0 0;
-}
-.icon {
-  width: 32px;
-  position: relative;
-  background-color: var(--color-white);
-  height: 32px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.sustainability {
-  position: relative;
-  line-height: 30px;
-}
-.submenu,
-.submenu1,
-.submenu2,
-.submenu3 {
-  position: absolute;
-  top: 73px;
-  right: 0px;
-  width: 1540px;
-  /* background-color: var(--color-white); */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
-    var(--padding-5xs);
-  /* gap: var(--gap-3xs); */
-}
-.submenu1,
-.submenu2,
-.submenu3 {
-  top: 145px;
-}
-.submenu2,
-.submenu3 {
-  top: 49px;
-  left: 728px;
-}
-.submenu3 {
-  left: 1020px;
-}
-.aboutUpdated,
-.topNavChild {
-  position: absolute;
-  height: 84.91%;
-  width: 100%;
-  top: 15.09%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-}
-.topNavChild {
-  height: 100%;
-  top: 0;
-  max-width: 100%;
-  max-height: 100%;
-}
-.sustainability4 {
-  position: relative;
-  letter-spacing: 0.05em;
-  line-height: 22px;
-  text-transform: uppercase;
-  z-index: 0;
-}
-.navMenuChild {
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary-primary);
-  height: 3px;
-  z-index: 1;
-}
-.navMenu {
-  position: absolute;
-  top: 0;
-  left: 441px;
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-10xl) 0;
-  gap: var(--gap-3xs);
-}
-.sustainability5 {
-  position: relative;
-  letter-spacing: 0.05em;
-  line-height: 22px;
-  text-transform: uppercase;
-}
-.navMenu1,
-.navMenu2,
-.navMenu3,
-.navMenu4 {
-  position: absolute;
-  top: 0;
-  left: 534px;
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-10xl) 0;
-}
-.navMenu2,
-.navMenu3,
-.navMenu4 {
-  left: 851px;
-}
-.navMenu3,
-.navMenu4 {
-  left: 976px;
-}
-.navMenu4 {
-  left: 1107px;
-}
-.vectorIcon3,
-.vectorIcon4 {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  max-height: 100%;
-}
-.vectorIcon3 {
-  right: 20px;
-  border-radius: var(--br-9xs);
-  width: 137px;
-}
-.vectorIcon4 {
-  width: 2.17%;
-  right: 97.83%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  opacity: 0;
-}
-.thermofishercom {
-  position: absolute;
-  top: 15.63%;
-  left: 7.64%;
-  line-height: 22px;
-}
-.retailSite {
-  position: absolute;
-  top: 24px;
-  left: calc(50% + 547px);
-  border-radius: var(--br-9xs);
-  width: 157px;
-  height: 32px;
-  color: var(--color-white);
-}
-.topNav {
-  position: absolute;
-  height: 15.09%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 84.91%;
-  left: 0;
-  font-size: var(--font-size-sm);
-}
-.navigation {
-  width: 100%;
-  position: relative;
-  height: 530px;
-  text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--nuetral-text);
-  font-family: var(--font-helvetica-neue-lt-w1g);
-}
-.list{
-  margin-top: 40%;
-  display: flex;
-width: 840px;
-height: 230px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-background-color: #0056b3;
-}
-
-
-
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/848f5bbb90204763c38de89929a0f689ace379b6e1a6b388a9b5713c3cbcc03c?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
+      class="img"
+    />
+    <div class="div-3">
+      <div class="div-4">
+        <div class="column">
+          <div class="div-5">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/96ee973cd55ba293b58a78439e7e86156f07649adf97e781b0c3959893cb71aa?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
+              class="img"
+            />
+            <div class="div-6">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/45415b58623de04f7081b4e446857b8d069da9863fb42f492d604f85f34c76f9?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
+                class="img"
+              />
+              Our Mission
+            </div>
+            <div class="div-8">
+              <div class="div-9">
+                Everything we do starts with our Mission: to enable our
+                customers to make the world
+                <span
+                  style="font-weight: 500; font-size: 20px; line-height: 28px"
+                >
+                  healthier, cleaner,
+                </span>
+                <br />
+                <span
+                  style="font-weight: 500; font-size: 20px; line-height: 28px"
+                >
+                  and safer.
+                </span>
+              </div>
+              <div class="div-10">
+                <div class="div-11"></div>
+                <div class="div-12">Read More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-2">
+          <div class="div-13">
+            <div class="div-14">
+              <div class="div-15">
+                <div class="div-16">
+                  <div class="div-17"></div>
+                  <div class="div-18"></div>
+                </div>
+                <div class="div-19">Our Company</div>
+              </div>
+              <div class="div-20">
+                <div class="div-21">
+                  <div class="div-22"></div>
+                  <div class="div-23"></div>
+                </div>
+                <div class="div-24">Our Stories</div>
+              </div>
+              <div class="div-25">
+                <div class="div-26">
+                  <div class="div-27"></div>
+                  <div class="div-28"></div>
+                </div>
+                <div class="div-29">Information Security</div>
+              </div>
+            </div>
+            <div class="div-30">
+              <div class="div-31">
+                <div class="div-32"></div>
+                <div class="div-33"></div>
+              </div>
+              <div class="div-34">Supplier Resources</div>
+            </div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/60981647a1d00dc88a921a2934ec079e21ae4977c68a1f6321dbea3d446d66b4?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
+              class="img-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-35"></div>
+  </div>
+</div>
+<style>
   .div {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .div-2 {
-    display: flex;
+    disply: flex;
     flex-direction: column;
     fill: #fff;
     filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.1));
@@ -427,7 +154,7 @@ background-color: #0056b3;
     }
   }
   .div-5 {
-    display: flex;
+    disply: flex;
     flex-direction: column;
     fill: var(--Primary-Primary, #e71316);
     overflow: hidden;
@@ -443,7 +170,7 @@ background-color: #0056b3;
     }
   }
   .div-6 {
-    display: flex;
+    disply: flex;
     flex-direction: column;
     position: relative;
     fill: #be0003;
@@ -683,7 +410,6 @@ background-color: #0056b3;
     fill: var(--Primary-Primary, #e71316);
     align-self: end;
     margin-top: 41px;
-    /* left: 100px; */
     max-width: 100%;
   }
   @media (max-width: 991px) {
@@ -704,3 +430,4 @@ background-color: #0056b3;
       margin: -200px 0 40px;
     }
   }
+</style>
