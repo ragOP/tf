@@ -76,7 +76,7 @@ const Navigation = () => {
                   <Link to="/thermofisherscientificcorporatenewsroom">
                     NEWSROOM
                   </Link>
-                  <Link>CAREER</Link>
+                  <Link to="/">CAREER</Link>
                   <Img
                     src="images/img_search.svg"
                     alt="search_one"
