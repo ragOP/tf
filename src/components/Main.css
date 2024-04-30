@@ -253,8 +253,8 @@
   }
   
   .txt{
-    /* color: #e71316; */
-    margin-top: 10px;
+    margin-top: -5px;
+    margin-left: -15px;
     text-align: center;
     font: 400 20px / 150% Helvetica Neue LT W1G, -apple-system, Roboto, Helvetica, sans-serif
   }

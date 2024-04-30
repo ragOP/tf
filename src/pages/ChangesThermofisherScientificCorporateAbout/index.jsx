@@ -114,11 +114,11 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                 <Text className="ml-[42px] md:ml-0" />
                 <Text className="ml-[42px] md:ml-0" />
                 <a href="#">
-                  <Img
+                  {/* <Img
                     src="images/img_search.svg"
                     alt="search"
                     className="ml-[50px] h-[16px] w-[16px] md:ml-0 md:w-full"
-                  />
+                  /> */}
                 </a>
               </div>
               <Button

@@ -10,6 +10,7 @@ const MainComponent = () => {
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/848f5bbb90204763c38de89929a0f689ace379b6e1a6b388a9b5713c3cbcc03c?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
           className="img"
+          alt=""
         />
         <div className="div-3">
           <div className="div-4">
@@ -71,6 +72,16 @@ const Column2Component = () => {
     setOpenLink(openLink === link ? null : link);
   };
 
+  const handleClick = () => {
+    const currentUrl = window.location.href;
+    if (
+      currentUrl ===
+      "http://localhost:3000/changesthermofisherscientificcorporateabout"
+    ) {
+      window.location.reload();
+    }
+  };
+
   return (
     <div className="column-2">
       <div className="div-13">
@@ -88,13 +99,22 @@ const Column2Component = () => {
             {openLink === "our-company" && (
               <div className="submenu-1">
                 <ul>
-                  <Link to="/changesthermofisherscientificcorporateabout">
+                  <Link
+                    onClick={handleClick}
+                    to="/changesthermofisherscientificcorporateabout"
+                  >
                     <li>Our Mission</li>
                   </Link>
-                  <Link to="/changesthermofisherscientificcorporateabout">
+                  <Link
+                    onClick={handleClick}
+                    to="/changesthermofisherscientificcorporateabout"
+                  >
                     <li>Our Values</li>
                   </Link>
-                  <Link to="/changesthermofisherscientificcorporateabout">
+                  <Link
+                    onClick={handleClick}
+                    to="/changesthermofisherscientificcorporateabout"
+                  >
                     <li>Innovation</li>
                   </Link>
                 </ul>
@@ -102,13 +122,29 @@ const Column2Component = () => {
             )}
           </div>
           <div className="link">
-            <div style={{ cursor: "pointer" }}>
+            <div
+              style={{
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <NavItem style={{ color: "black" }} />
               <p className="txt">Our Stories</p>
             </div>
           </div>
           <div className="link">
             <div>
-              <p className="txt">Information Security</p>
+              <div
+                style={{
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <NavItem style={{ color: "black" }} />
+                <p className="txt">Information Security</p>
+              </div>
             </div>
           </div>
         </div>
