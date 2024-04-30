@@ -199,9 +199,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+  /* padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
     var(--padding-5xs);
-  /* gap: var(--gap-3xs); */
+  gap: var(--gap-3xs); */
+  margin: 8px;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+}
+.submenu-1, .submenu-2, .submenu-3{
+  margin-left: 60px;
+}
+.submenu-1 > ul > li {
+  margin-top: 10px;
+  color: gray;
+}
+.submenu-2 > ul > li {
+  margin-top: 10px;
+  color: gray;
+}
+.submenu-3 > ul > li {
+  margin-top: 10px;
+  color: gray;
 }
 .submenu1,
 .submenu2,
@@ -565,16 +585,17 @@ background-color: #0056b3;
     flex-direction: column;
     padding: 8px 8px 15px;
   }
-  .div-17 {
+  /* .div-17 {
     background-color: var(--Primary-Primary, #e71316);
     z-index: 10;
     width: 16px;
     height: 16px;
-  }
-  .div-18 {
+  } */
+  /* .div-18 {
     background-color: var(--Primary-Primary, #e71316);
     height: 2px;
-  }
+  } */
+  
   .div-19 {
     color: var(--Nuetral-Text, #222);
     text-align: center;

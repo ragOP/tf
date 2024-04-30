@@ -20,7 +20,7 @@
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/45415b58623de04f7081b4e446857b8d069da9863fb42f492d604f85f34c76f9?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
                 class="img"
               />
-              Our Mission
+              <p>Our Mission2</p>
             </div>
             <div class="div-8">
               <div class="div-9">

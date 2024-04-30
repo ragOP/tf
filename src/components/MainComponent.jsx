@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Main.css";
 import { Link } from "react-router-dom";
+
 const MainComponent = () => {
   return (
     <div className="div">
@@ -37,7 +38,7 @@ const ColumnComponent = () => {
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/45415b58623de04f7081b4e446857b8d069da9863fb42f492d604f85f34c76f9?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
             className="img"
           />
-          Our Mission
+          <p style={{ zIndex: "1000" }}>Our Mission</p>
         </div>
         <div className="div-8">
           <div className="div-9" style={{ marginRight: "80px" }}>
@@ -64,23 +65,80 @@ const ColumnComponent = () => {
 };
 
 const Column2Component = () => {
+  const [openLink, setOpenLink] = useState(null);
+
+  const toggleSubMenu = (link) => {
+    setOpenLink(openLink === link ? null : link);
+  };
+
   return (
     <div className="column-2">
       <div className="div-13">
         <div className="div-14">
-          <Link to="/changesthermofisherscientificcorporateabout">
-            <NavItem title="Our Company" />
-          </Link>
-
-          <Link to="/changesthermofisherscientificcorporateabout">
-            <NavItem title="Our Stories" />
-          </Link>
-          <Link to="/changesthermofisherscientificcorporateabout">
-            <NavItem title="Information Security" />
-          </Link>
+          <div className="link">
+            <Link
+              to="/changesthermofisherscientificcorporateabout"
+              onClick={() => toggleSubMenu("our-company")}
+            >
+              <NavItem
+                title="Our Company"
+                isOpen={openLink === "our-company"}
+              />
+            </Link>
+            {openLink === "our-company" && (
+              <div className="submenu-1">
+                <ul>
+                  <li>Our Mission</li>
+                  <li>Our Value</li>
+                  <li>Innovation</li>
+                </ul>
+              </div>
+            )}
+          </div>
+          <div className="link">
+            <Link
+              className="link"
+              to="/changesthermofisherscientificcorporateabout"
+              onClick={() => toggleSubMenu("our-stories")}
+            >
+              <NavItem
+                title="Our Stories"
+                isOpen={openLink === "our-stories"}
+              />
+            </Link>
+            {openLink === "our-stories" && (
+              <div className="submenu-2">
+                <ul>
+                  <li>Our Mission</li>
+                  <li>Our Value</li>
+                  <li>Innovation</li>
+                </ul>
+              </div>
+            )}
+          </div>
+          <div className="link">
+            <Link
+              className="link"
+              to="/changesthermofisherscientificcorporateabout"
+              onClick={() => toggleSubMenu("info-security")}
+            >
+              <NavItem
+                title="Information Security"
+                isOpen={openLink === "info-security"}
+              />
+            </Link>
+            {openLink === "info-security" && (
+              <div className="submenu-3">
+                <ul>
+                  <li>Our Mission</li>
+                  <li>Our Value</li>
+                  <li>Innovation</li>
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
         <div className="div-30">
-          {/* <NavItem title="Supplier Resources" /> */}
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/60981647a1d00dc88a921a2934ec079e21ae4977c68a1f6321dbea3d446d66b4?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
@@ -92,13 +150,16 @@ const Column2Component = () => {
   );
 };
 
-const NavItem = ({ title }) => {
+const NavItem = ({ title, isOpen }) => {
   return (
     <div className="nav-item">
       <div className="div-15">
         <div className="div-16">
-          <div className="div-17"></div>
-          <div className="div-18"></div>
+          {isOpen ? (
+            <div className="div-18"></div>
+          ) : (
+            <div className="div-17"></div>
+          )}
         </div>
         <div className="div-19">{title}</div>
       </div>

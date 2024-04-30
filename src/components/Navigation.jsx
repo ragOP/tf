@@ -35,7 +35,6 @@ const Navigation = () => {
   }, []);
 
   return (
-    
     <div>
       <header>
         <div className="bg-white-A700">
@@ -64,8 +63,7 @@ const Navigation = () => {
                   {showSubMenu && (
                     <div ref={submenuRef}>
                       <div className="submenu">
-                      
-                     <MainComponent/>
+                        <MainComponent />
                       </div>
                     </div>
                   )}
@@ -78,6 +76,7 @@ const Navigation = () => {
                   <Link to="/thermofisherscientificcorporatenewsroom">
                     NEWSROOM
                   </Link>
+                  <Link>CAREER</Link>
                   <Img
                     src="images/img_search.svg"
                     alt="search_one"
