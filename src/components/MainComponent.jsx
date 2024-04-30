@@ -89,7 +89,7 @@ const Column2Component = () => {
               <div className="submenu-1">
                 <ul>
                   <li>Our Mission</li>
-                  <li>Our Value</li>
+                  <li>Our Values</li>
                   <li>Innovation</li>
                 </ul>
               </div>

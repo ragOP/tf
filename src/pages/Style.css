@@ -209,11 +209,14 @@
   flex-direction: column;
 }
 .submenu-1, .submenu-2, .submenu-3{
-  margin-left: 60px;
+  margin-left: 53px;
+  margin-top: -5px;
 }
 .submenu-1 > ul > li {
   margin-top: 10px;
   color: gray;
+  font-size: 18px;
+  font-weight: 500;
 }
 .submenu-2 > ul > li {
   margin-top: 10px;
