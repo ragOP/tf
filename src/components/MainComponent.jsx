@@ -76,15 +76,15 @@ const Column2Component = () => {
       <div className="div-13">
         <div className="div-14">
           <div className="link">
-            <Link
-              to="/changesthermofisherscientificcorporateabout"
+            <div
+              style={{ cursor: "pointer" }}
               onClick={() => toggleSubMenu("our-company")}
             >
               <NavItem
                 title="Our Company"
                 isOpen={openLink === "our-company"}
               />
-            </Link>
+            </div>
             {openLink === "our-company" && (
               <div className="submenu-1">
                 <ul>
@@ -96,16 +96,16 @@ const Column2Component = () => {
             )}
           </div>
           <div className="link">
-            <Link
+            <div
+              style={{ cursor: "pointer" }}
               className="link"
-              to="/changesthermofisherscientificcorporateabout"
               onClick={() => toggleSubMenu("our-stories")}
             >
               <NavItem
                 title="Our Stories"
                 isOpen={openLink === "our-stories"}
               />
-            </Link>
+            </div>
             {openLink === "our-stories" && (
               <div className="submenu-2">
                 <ul>
@@ -117,16 +117,16 @@ const Column2Component = () => {
             )}
           </div>
           <div className="link">
-            <Link
+            <div
+              style={{ cursor: "pointer" }}
               className="link"
-              to="/changesthermofisherscientificcorporateabout"
               onClick={() => toggleSubMenu("info-security")}
             >
               <NavItem
                 title="Information Security"
                 isOpen={openLink === "info-security"}
               />
-            </Link>
+            </div>
             {openLink === "info-security" && (
               <div className="submenu-3">
                 <ul>
