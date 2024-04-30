@@ -2,7 +2,7 @@
 body {
   margin: 0;
   line-height: normal;
-  font-family: 'Helvetica Neue LT W1G', sans-serif;
+  font-family: 'Helvetica Neue LT W1G', sans-serif !important;
 }
 :root {
   /* fonts */

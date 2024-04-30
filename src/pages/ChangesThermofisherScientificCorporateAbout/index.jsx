@@ -7,19 +7,35 @@ import Footer from "../../components/Footer";
 import Navigation from "components/Navigation";
 
 const data = [
-  { image: "images/img_thermo_scientific.svg", acommitmentto: "A commitment to analytical precision" },
-  { image: "images/img_applied_biosystems.svg", acommitmentto: "The path to genomic discoveries" },
-  { image: "images/img_layer_1.svg", acommitmentto: "Accelerating discovery research" },
+  {
+    image: "images/img_thermo_scientific.svg",
+    acommitmentto: "A commitment to analytical precision",
+  },
+  {
+    image: "images/img_applied_biosystems.svg",
+    acommitmentto: "The path to genomic discoveries",
+  },
+  {
+    image: "images/img_layer_1.svg",
+    acommitmentto: "Accelerating discovery research",
+  },
   {
     image: "images/img_layer_1_light_blue_900_01.svg",
-    acommitmentto: "<>The scientific marketplace for choice and <br />convenience</>",
+    acommitmentto:
+      "<>The scientific marketplace for choice and <br />convenience</>",
   },
   {
     image: "images/img_layer_1_gray_700_02.svg",
     acommitmentto: "<>The laboratory service and support <br />solution</>",
   },
-  { image: "images/img_layer_1_black_900_01.svg", acommitmentto: "End-to-end pharma services solutions" },
-  { image: "images/img_union.svg", acommitmentto: "Helping deliver life-changing therapies" },
+  {
+    image: "images/img_layer_1_black_900_01.svg",
+    acommitmentto: "End-to-end pharma services solutions",
+  },
+  {
+    image: "images/img_union.svg",
+    acommitmentto: "Helping deliver life-changing therapies",
+  },
   {
     image: "images/img_vector_light_blue_900.svg",
     acommitmentto: "Solutions for the everyday and the extra challenging",
@@ -41,13 +57,21 @@ const data1 = [
     username: "Michel Lagarde",
     userrole: "Executive Vice President & Chief Operating Officer",
   },
-  { userimage: "images/img_rectangle_19930_2.png", username: "Karen E. Nelson", userrole: "Chief Scientific Officer" },
+  {
+    userimage: "images/img_rectangle_19930_2.png",
+    username: "Karen E. Nelson",
+    userrole: "Chief Scientific Officer",
+  },
   {
     userimage: "images/img_rectangle_19930_3.png",
     username: "Sandy Pound",
     userrole: "Vice President & Chief Communications Officer",
   },
-  { userimage: "images/img_rectangle_19930_4.png", username: "Alan Sachs", userrole: "Chief Medical Officer" },
+  {
+    userimage: "images/img_rectangle_19930_4.png",
+    username: "Alan Sachs",
+    userrole: "Chief Medical Officer",
+  },
   {
     userimage: "images/img_rectangle_19930_5.png",
     username: "Ryan Snyder",
@@ -63,15 +87,18 @@ const data1 = [
 export default function ChangesThermofisherScientificCorporateAboutPage() {
   return (
     <>
-    <Navigation/>
+      <Navigation />
       <Helmet>
         <title>thermo-react-app</title>
-        <meta name="description" content="Web site created using create-react-app" />
+        <meta
+          name="description"
+          content="Web site created using create-react-app"
+        />
       </Helmet>
       <div className="w-full bg-white-A700">
         <header className="flex flex-col items-center gap-[26px]">
           <div className="flex justify-between gap-5 self-stretch bg-white-A700 pr-4 md:flex-col">
-            <div className="relative h-[80px] w-[12%] md:h-auto md:w-full">
+            <div className="relative h-[80px] w-[12%] md:h-auto md:w-full -z-10">
               {/* <Img src="images/img_header_logo.svg" alt="headerlogo" className="h-[28px] w-[128px]" /> */}
               {/* <Img
                 src="images/img_thermo_fisher_scientific.png"
@@ -94,7 +121,10 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                   />
                 </a>
               </div>
-              <Button shape="round" className="min-w-[157px] text-white-A700 md:p-5 sm:pr-5">
+              <Button
+                shape="round"
+                className="min-w-[157px] text-white-A700 md:p-5 sm:pr-5"
+              >
                 Thermofisher.com
               </Button>
             </div>
@@ -113,12 +143,20 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
         </header>
         <div className="mt-[26px] flex flex-col items-center">
           <div className="flex h-[396px] items-center self-stretch bg-[url(/public/images/img_group_484.png)] bg-cover bg-no-repeat md:h-auto md:flex-col">
-            <div className="relative z-[1] flex h-[396px] w-[44%] items-center bg-[url(/public/images/img_vector.png)] bg-cover bg-no-repeat py-[178px] pl-[178px] pr-14 md:h-auto md:w-full md:p-5">
+            <div className="relative -z-10 flex h-[396px] w-[44%] items-center bg-[url(/public/images/img_vector.png)] bg-cover bg-no-repeat py-[178px] pl-[178px] pr-14 md:h-auto md:w-full md:p-5">
               <div className="ml-[18px] flex items-start gap-2.5 md:ml-0">
-                <Button size="md" shape="circle" className="w-[40px] !rounded-[20px]">
+                <Button
+                  size="md"
+                  shape="circle"
+                  className="w-[40px] !rounded-[20px]"
+                >
                   <Img src="images/img_contrast.svg" />
                 </Button>
-                <Text size="s" as="p" className="mt-[9px] !font-medium !text-white-A700">
+                <Text
+                  size="s"
+                  as="p"
+                  className="mt-[9px] !font-medium !text-white-A700"
+                >
                   Watch this video
                 </Text>
               </div>
@@ -126,7 +164,7 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
             <Img
               src="images/img_rectangle_19900.png"
               alt="image"
-              className="relative ml-[-129px] h-[396px] w-[56%] object-cover md:ml-0 md:w-full"
+              className="relative ml-[-129px] h-[396px] w-[56%] object-cover md:ml-0 md:w-full -z-10"
             />
           </div>
           <div className="mt-[37px] flex w-[87%] md:w-full md:p-5">
@@ -162,18 +200,22 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                     <span className="text-gray-900">
                       <>
                         <br />
-                        The nature of our business is to enable growth and innovation within the global scientific
-                        community and to help researchers, organizations, and companies solve some of the world’s most
-                        pressing issues. We do that by providing cutting-edge technologies and services that are the
-                        result of our significant investment in research and development.
+                        The nature of our business is to enable growth and
+                        innovation within the global scientific community and to
+                        help researchers, organizations, and companies solve
+                        some of the world’s most pressing issues. We do that by
+                        providing cutting-edge technologies and services that
+                        are the result of our significant investment in research
+                        and development.
                         <br />
                         <br />
                       </>
                     </span>
                     <span className="font-normal text-gray-900">
-                      We believe creating a better tomorrow starts with the action we take today, and we continually
-                      strive toward improvement and excellence for the benefit of our customers, our colleagues, and the
-                      world.
+                      We believe creating a better tomorrow starts with the
+                      action we take today, and we continually strive toward
+                      improvement and excellence for the benefit of our
+                      customers, our colleagues, and the world.
                     </span>
                   </Text>
                 </div>
@@ -217,7 +259,11 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                         />
                       </div>
                       <div className="absolute bottom-[24.00px] left-0 right-0 m-auto flex w-[91%] justify-center rounded bg-indigo-900_e5 p-4">
-                        <Text size="lg" as="p" className="w-[92%] leading-6 !text-white-A700">
+                        <Text
+                          size="lg"
+                          as="p"
+                          className="w-[92%] leading-6 !text-white-A700"
+                        >
                           <>
                             Marc Casper
                             <br />
@@ -227,15 +273,26 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                       </div>
                     </div>
                     <div className="flex w-[46%] flex-col items-start md:w-full">
-                      <Heading as="h3" className="uppercase tracking-[1.80px] !text-gray-100_01">
+                      <Heading
+                        as="h3"
+                        className="uppercase tracking-[1.80px] !text-gray-100_01"
+                      >
                         MESSAGE FROM CEO
                       </Heading>
-                      <Text size="3xl" as="p" className="mt-[50px] w-full italic leading-[37px] !text-white-A700">
-                        “ The reason we responded so quickly to the pandemic was the amazing team we have. 90,000
-                        colleagues around the world dedicated to our customers’ success.”
+                      <Text
+                        size="3xl"
+                        as="p"
+                        className="mt-[50px] w-full italic leading-[37px] !text-white-A700"
+                      >
+                        “ The reason we responded so quickly to the pandemic was
+                        the amazing team we have. 90,000 colleagues around the
+                        world dedicated to our customers’ success.”
                       </Text>
                       <div className="mt-8 flex p-[7px]">
-                        <Text as="p" className="self-start tracking-[0.64px] !text-white-A700">
+                        <Text
+                          as="p"
+                          className="self-start tracking-[0.64px] !text-white-A700"
+                        >
                           READ COMPLETE LETTER
                         </Text>
                       </div>
@@ -249,7 +306,9 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                 <Text size="5xl" as="p" className="!text-indigo-900">
                   <span className="text-indigo-900">O</span>
                   <span className="text-indigo-900">ur&nbsp;</span>
-                  <span className="font-bold text-indigo-900">leadership team</span>
+                  <span className="font-bold text-indigo-900">
+                    leadership team
+                  </span>
                 </Text>
               </div>
               <div className="ml-[7px] grid grid-cols-4 gap-10 md:ml-0 md:grid-cols-2 sm:grid-cols-1">
@@ -262,10 +321,18 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                 ))}
               </div>
               <div className="flex flex-col items-start justify-center py-[7px]">
-                <Heading size="xs" as="h4" className="uppercase tracking-[0.64px] !text-gray-800">
+                <Heading
+                  size="xs"
+                  as="h4"
+                  className="uppercase tracking-[0.64px] !text-gray-800"
+                >
                   Full Leadership List
                 </Heading>
-                <Img src="images/img_thumbs_up.svg" alt="thumbsup" className="relative mt-[-16px] h-[18px]" />
+                <Img
+                  src="images/img_thumbs_up.svg"
+                  alt="thumbsup"
+                  className="relative mt-[-16px] h-[18px]"
+                />
               </div>
             </div>
           </div>
@@ -278,13 +345,23 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
               </div>
               <div className="flex self-stretch md:flex-col">
                 <div className="flex h-[216px] w-[31%] items-center bg-[url(/public/images/img_group_42.svg)] bg-cover bg-no-repeat py-[87px] pl-[87px] pr-14 md:h-auto md:w-full md:p-5">
-                  <Img src="images/img_logo.svg" alt="logo" className="ml-3 h-[42px] w-[66%] md:ml-0" />
+                  <Img
+                    src="images/img_logo.svg"
+                    alt="logo"
+                    className="ml-3 h-[42px] w-[66%] md:ml-0"
+                  />
                 </div>
                 <div className="flex flex-1 justify-center bg-red-900 p-12 md:self-stretch md:p-5">
-                  <Text size="xl" as="p" className="w-[94%] leading-[30px] !text-white-A700">
-                    Whether they are improving life for patients, protecting our global climate or keeping people safe,
-                    our customers look to Thermo Fisher Scientific for innovative solutions. Products and services sold
-                    under the following Thermo Fisher brands enable customers to push science and technology a step
+                  <Text
+                    size="xl"
+                    as="p"
+                    className="w-[94%] leading-[30px] !text-white-A700"
+                  >
+                    Whether they are improving life for patients, protecting our
+                    global climate or keeping people safe, our customers look to
+                    Thermo Fisher Scientific for innovative solutions. Products
+                    and services sold under the following Thermo Fisher brands
+                    enable customers to push science and technology a step
                     beyond.
                   </Text>
                 </div>
@@ -296,7 +373,11 @@ export default function ChangesThermofisherScientificCorporateAboutPage() {
                   key={"gridacommitment" + index}
                   className="flex w-full flex-col items-start justify-center gap-[106px] bg-gray-100_01 p-[39px] md:gap-[79px] sm:gap-[53px] sm:p-5"
                 >
-                  <Img src={d.image} alt="image" className="mt-10 h-[79px] w-[53%]" />
+                  <Img
+                    src={d.image}
+                    alt="image"
+                    className="mt-10 h-[79px] w-[53%]"
+                  />
                   <Text as="p" className="mb-[37px] !text-black-900_01">
                     {d.acommitmentto}
                   </Text>

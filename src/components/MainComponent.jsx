@@ -88,9 +88,15 @@ const Column2Component = () => {
             {openLink === "our-company" && (
               <div className="submenu-1">
                 <ul>
-                  <li>Our Mission</li>
-                  <li>Our Values</li>
-                  <li>Innovation</li>
+                  <Link to="/changesthermofisherscientificcorporateabout">
+                    <li>Our Mission</li>
+                  </Link>
+                  <Link to="/changesthermofisherscientificcorporateabout">
+                    <li>Our Values</li>
+                  </Link>
+                  <Link to="/changesthermofisherscientificcorporateabout">
+                    <li>Innovation</li>
+                  </Link>
                 </ul>
               </div>
             )}
@@ -111,6 +117,7 @@ const Column2Component = () => {
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/60981647a1d00dc88a921a2934ec079e21ae4977c68a1f6321dbea3d446d66b4?apiKey=ac79695e9bf24039b66fc35f3a5b9f35&"
             className="img-2"
+            alt=""
           />
         </div>
       </div>

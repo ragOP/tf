@@ -212,17 +212,17 @@
   margin-left: 53px;
   margin-top: -5px;
 }
-.submenu-1 > ul > li {
+.submenu-1 > ul > a > li {
   margin-top: 10px;
   color: gray;
   font-size: 18px;
   font-weight: 500;
 }
-.submenu-2 > ul > li {
+.submenu-2 > ul > a >li {
   margin-top: 10px;
   color: gray;
 }
-.submenu-3 > ul > li {
+.submenu-3 > ul > a > li {
   margin-top: 10px;
   color: gray;
 }
