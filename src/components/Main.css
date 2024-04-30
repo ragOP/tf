@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
+    height: 450px !important;
     z-index: 999;
   }
   .div-2 {
@@ -251,7 +252,11 @@
     background-color: #e71316; 
   }
   
-  
+  .txt{
+    color: var(--Nuetral-Text, #222);
+    text-align: center;
+    font: 400 20px / 150% Helvetica Neue LT W1G, -apple-system, Roboto, Helvetica, sans-serif
+  }
 
   
   .div-19 {
@@ -364,14 +369,14 @@
     margin-top: 81px;
     margin-left: 1200%;
     max-width: 100%;
-    margin-right: 9px;
+    margin-right: 10px;
   }
   @media (max-width: 991px) {
     .img-2 {
       margin-top: 40px;
     }
   }
-  .div-35 {
+  /* .div-35 {
     position: relative;
     background-color: var(--Nuetral-32, #b8babc);
     min-height: 1px;
@@ -383,4 +388,4 @@
       max-width: 100%;
       margin: -200px 0 40px;
     }
-  }
+  } */
