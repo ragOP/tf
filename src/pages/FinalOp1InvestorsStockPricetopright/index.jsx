@@ -296,31 +296,31 @@ export default function FinalOp1InvestorsStockPricetoprightPage() {
                     </div>
                   </div>
                   <div className="mt-[23px] flex w-[79%] gap-4 md:w-full sm:flex-col">
-                    <div className="flex w-[44%] items-center gap-[11px] self-start sm:w-full">
+                    {/* <div className="flex w-[44%] items-center gap-[11px] self-start sm:w-full">
                       <div className="h-[12px] w-[12px] self-end bg-deep_purple-500" />
                       <Text as="p" className="!text-gray-800">
                         Pharma & Biotech 58%
                       </Text>
-                    </div>
+                    </div> */}
                     <div className="flex flex-1 items-center gap-[11px] self-end sm:self-stretch">
-                      <div className="h-[12px] w-[12px] self-end bg-indigo-900" />
-                      <Text as="p" className="!text-gray-800">
+                      {/* <div className="h-[12px] w-[12px] self-end bg-indigo-900" /> */}
+                      {/* <Text as="p" className="!text-gray-800">
                         Diagnostics & Healthcare 15%
-                      </Text>
+                      </Text> */}
                     </div>
                   </div>
                   <div className="mt-3 flex w-[81%] gap-4 md:w-full sm:flex-col">
                     <div className="flex flex-1 items-center gap-2.5 self-start sm:self-stretch">
-                      <div className="h-[12px] w-[12px] self-end bg-teal-100" />
+                      {/* <div className="h-[12px] w-[12px] self-end bg-teal-100" />
                       <Text as="p" className="!text-gray-800">
                         Academic & Government 14%
-                      </Text>
+                      </Text> */}
                     </div>
                     <div className="flex w-[46%] items-center gap-[11px] self-end sm:w-full">
-                      <div className="h-[12px] w-[12px] self-end bg-teal-700" />
+                      {/* <div className="h-[12px] w-[12px] self-end bg-teal-700" />
                       <Text as="p" className="!text-gray-800">
                         Industrial & Applied 13%
-                      </Text>
+                      </Text> */}
                     </div>
                   </div>
                 </div>
@@ -365,21 +365,21 @@ export default function FinalOp1InvestorsStockPricetoprightPage() {
                       trail: { stroke: "#664fa3" },
                       path: { strokeLinecap: "square" },
                     }}
-                    className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[148px] w-full"
+                    className="absolute bottom-0 left-0 right-0 top-20 m-auto h-[148px] w-full"
                   />
                 </div>
                 <div className="mb-2.5 flex w-[20%] space-x-10 justify-center gap-3.5 md:mb-0 md:w-full mt-10">
                   <div className="flex w-[61%] items-center gap-[11px] md:w-full">
-                    <div className="h-[12px] w-[12px] self-end bg-teal-700" />
+                    {/* <div className="h-[12px] w-[12px] self-end bg-teal-700" />
                     <Text as="p" className="!text-gray-800">
                       Instruments 18%
-                    </Text>
+                    </Text> */}
                   </div>
                   <div className="flex items-center gap-[11px]">
-                    <div className="h-[12px] w-[12px] self-end bg-deep_purple-500" />
+                    {/* <div className="h-[12px] w-[12px] self-end bg-deep_purple-500" />
                     <Text as="p" className="!text-gray-800">
                       Services & Consumables 82%
-                    </Text>
+                    </Text> */}
                   </div>
                 </div>
               </div>
