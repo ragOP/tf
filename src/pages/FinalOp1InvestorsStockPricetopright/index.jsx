@@ -64,13 +64,13 @@ export default function FinalOp1InvestorsStockPricetoprightPage() {
         {/* <Header /> */}
         <div className="mt-[37px] flex flex-col items-center">
           <div className="flex flex-col items-center self-stretch">
-            <div className="container-xs relative z-[2] flex flex-col items-center md:p-5">
+            <div className="container-xs relative -z-[2] flex flex-col items-center md:p-5">
               <Heading as="h1" className="uppercase tracking-[1.80px]">
                 INVESTORS
               </Heading>
             </div>
-            <div className="relative mt-[-20px] flex flex-col items-center self-stretch">
-              <div className="container-xs relative z-[1] flex flex-col items-end md:p-5">
+            <div className="relative mt-[-20px] flex flex-col items-center self-stretch -z-[-1]">
+              <div className="container-xs relative -z-[-1] flex flex-col items-end md:p-5">
                 <div className="flex w-[12%] flex-col gap-[7px] md:w-full">
                   <div className="flex flex-wrap items-center gap-[7px] self-start">
                     <Text
@@ -97,7 +97,7 @@ export default function FinalOp1InvestorsStockPricetoprightPage() {
                 </div>
               </div>
               <div className="relative mt-[-31px] flex flex-col items-center gap-[81px] self-stretch md:gap-[60px] sm:gap-10">
-                <div className="container-xs md:p-5">
+                <div className="container-xs md:p-5 -z[-1]">
                   <div className="flex flex-col gap-[26px]">
                     <Text size="8xl" as="p">
                       <span className="font-normal text-gray-900">
@@ -939,7 +939,7 @@ export default function FinalOp1InvestorsStockPricetoprightPage() {
                   className="h-[78px] w-[12%]"
                 />
                 <div className="relative ml-[-1px] flex flex-1 justify-center bg-red-A700 p-[17px]">
-                  <div className="flex self-end p-[7px]">
+                  <div className="flex self-end p-[7px] -z-[-1]">
                     <Text
                       as="p"
                       className="self-start tracking-[0.64px] !text-white-A700"
